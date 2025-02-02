@@ -1,0 +1,9 @@
+.spinner{
+  display: inline !important;
+  float: right !important;
+}
+
+.submit-btn{
+  width: 80% !important;
+  display: flex !important;
+}

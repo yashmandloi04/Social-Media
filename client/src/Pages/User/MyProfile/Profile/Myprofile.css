@@ -1,0 +1,48 @@
+/* Profile Cover */
+.profile-cover {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  background-color: #f8f9fa;
+}
+
+.profile-cover img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Profile Picture */
+.profile-picture {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile-picture img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  background-color: #fff;
+}
+
+/* User Bio */
+.user-bio {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* User Stats */
+.user-profile .border-top {
+  border-color: #e9ecef !important;
+}
+
+.user-profile h6 {
+  font-weight: bold;
+}
+
+.user-profile small {
+  color: #6c757d;
+}

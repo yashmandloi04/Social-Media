@@ -1,0 +1,38 @@
+/* Match UserCard with UserProfile styles */
+.user-card {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.user-card h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-card p {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.user-card .btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.user-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.user-card .btn-outline-secondary {
+  border-color: #ced4da;
+  color: #6c757d;
+}
+
+.user-card .btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+  color: #495057;
+}
